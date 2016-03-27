@@ -1,0 +1,19 @@
+body {
+  background-color: #2C2C2C;
+  color: white;
+}
+body h1 {
+  color: #f8f800;
+}
+body h2 {
+  color: #dda0dd;
+}
+body h3 {
+  color: #aa70aa;
+}
+body h4 {
+  color: #773077;
+}
+body .container {
+  background-color: #0d3349;
+}

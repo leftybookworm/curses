@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Curses!</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Curses!</h1>
+    node.js: <script>document.write(process.version)</script>
+    <br />
+    electron: <script>document.write(process.versions['electron'])</script>
+
+    <div id="app">
+      <p>Waiting on om...</p>
+    </div>
+
+    <div id="next">
+      <p>Waiting on om again...</p>
+    </div>
+
+    <div id="last">
+      <p>Waiting on om again...</p>
+    </div>
+
+    <script type="text/javascript" src="js/out/goog/base.js"></script>
+    <script type="text/javascript" src="js/front.js"></script>
+    <script type="text/javascript">goog.require('curses_om.core')</script>
+
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "curses",
+  "version": "0.0.0",
+  "description": "",
+  "devDependencies": {
+    "closurecompiler-externs": "^1.0.4",
+    "gulp": "^3.9.1",
+    "gulp-electron": "0.0.10",
+    "gulp-electron-downloader": "^0.1.6",
+    "gulp-less": "^3.0.5"
+  }
+}
